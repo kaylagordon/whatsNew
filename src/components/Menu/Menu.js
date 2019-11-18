@@ -1,6 +1,12 @@
 import React from 'react';
 import './Menu.css'
 
-// MENU COMPONENT CODE GOES HERE
+function Menu() {
+  return (
+    <div>
+      <p>Menu stuff here.</p>
+    </div>
+  )
+}
 
 export default Menu;
