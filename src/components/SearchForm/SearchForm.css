@@ -1,0 +1,6 @@
+.header {
+  background-color: blue;
+  grid-area: searchBar;
+  display: flex;
+  justify-content: center;
+}

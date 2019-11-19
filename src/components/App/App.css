@@ -5,9 +5,11 @@
 }
 
 .app {
-  display: flex;
+  display: grid;
+  grid-template-areas:
+    'searchBar searchBar'
+    'menu news';
   background: #141527;
-  height: 100vh;
   text-align: center;
   width: 100%;
   color: white;

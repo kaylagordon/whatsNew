@@ -3,11 +3,11 @@ import './NewsArticle.css';
 
 function NewsArticle(props) {
   return (
-    <div>
+    <div className='newsArticle'>
+      <img className='newsImage' src={props.image} alt='picture of {props.headline}' />
       <p>The headline: {props.headline}</p>
       <p>The description: {props.description}</p>
-      <p>The link: {props.link}</p>
-      <p>The picture: {props.image}</p>
+      <a href={props.link}>Link to article</a>
     </div>
   )
 }

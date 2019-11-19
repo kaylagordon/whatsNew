@@ -3,7 +3,7 @@ import './Menu.css'
 
 function Menu() {
   return (
-    <div>
+    <div class='menu'>
       <button>Local News</button>
       <button>Technology</button>
       <button>Entertainment</button>

@@ -4,9 +4,10 @@ import NewsArticle from '../NewsArticle/NewsArticle'
 
 function NewsContainer(props) {
   return (
-    <div>
+    <div className='newsContainer'>
       {props.news.map(article => {
         return <NewsArticle
+          key = {article.id}
           headline = {article.headline}
           description = {article.description}
           link = {article.url}
