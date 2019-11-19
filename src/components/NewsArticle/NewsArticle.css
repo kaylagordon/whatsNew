@@ -12,3 +12,25 @@
   height: 200px;
   object-fit: cover;
 }
+
+p {
+  margin-top: 10px;
+}
+
+.newsInfo {
+  padding: 10px;
+}
+
+.link-box {
+  background-color: #EC5449;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
