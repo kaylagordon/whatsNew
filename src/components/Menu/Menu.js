@@ -4,7 +4,11 @@ import './Menu.css'
 function Menu() {
   return (
     <div>
-      <p>Menu stuff here.</p>
+      <button>Local News</button>
+      <button>Technology</button>
+      <button>Entertainment</button>
+      <button>Science</button>
+      <button>Health</button>
     </div>
   )
 }
