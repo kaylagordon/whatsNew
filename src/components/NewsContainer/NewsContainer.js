@@ -2,10 +2,10 @@ import React from 'react';
 import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
-function NewsContainer(props) {
+function NewsContainer({news}) {
   return (
     <div className='newsContainer'>
-      {props.news.map(article => {
+      {news.map(article => {
         return <NewsArticle
           key = {article.id}
           headline = {article.headline}
