@@ -2,11 +2,17 @@ import React from 'react';
 import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
-function NewsContainer() {
+function NewsContainer(props) {
   return (
     <div>
-      <NewsArticle />
-      <NewsArticle />
+      {props.news.map(article => {
+        return <NewsArticle
+          headline = {article.headline}
+          description = {article.description}
+          link = {article.url}
+          image = {article.img}
+        />
+      })}
     </div>
   )
 }

@@ -1,10 +1,13 @@
 import React from 'react';
 import './NewsArticle.css';
 
-function NewsArticle() {
+function NewsArticle(props) {
   return (
     <div>
-      <p>This is an article.</p>
+      <p>The headline: {props.headline}</p>
+      <p>The description: {props.description}</p>
+      <p>The link: {props.link}</p>
+      <p>The picture: {props.image}</p>
     </div>
   )
 }

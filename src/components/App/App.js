@@ -15,10 +15,12 @@ class App extends Component {
 
   render () {
     return (
-      <div className="app">
+      <div className='app'>
         <SearchForm />
         <Menu />
-        <NewsContainer />
+        <NewsContainer
+          news = {local}
+        />
       </div>
     );
   }
