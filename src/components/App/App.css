@@ -8,9 +8,15 @@
   display: grid;
   grid-template-areas:
     'searchBar searchBar'
-    'menu news';
+    'menu news'
+    'footer footer';
   background: #2F403E;
   text-align: center;
   width: 100%;
   color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }

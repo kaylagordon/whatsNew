@@ -8,6 +8,7 @@ import './App.css';
 import SearchForm from '../SearchForm/SearchForm'
 import Menu from '../Menu/Menu'
 import NewsContainer from '../NewsContainer/NewsContainer'
+import Footer from '../Footer/Footer'
 
 class App extends Component {
   constructor() {
@@ -43,10 +44,12 @@ class App extends Component {
           technology = {technology}
           entertainment = {entertainment}
           changeNewsSource = {this.changeNewsSource}
+          state = {this.state.news}
         />
         <NewsContainer
           news = {this.state.news}
         />
+        <Footer />
       </div>
     );
   }

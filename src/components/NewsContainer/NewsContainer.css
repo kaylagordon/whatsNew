@@ -2,5 +2,5 @@
   grid-area: news;
   column-count: 2;
   column-gap: 2em;
-  padding: 0 2em;
+  padding: 0 2em 0 1em;
 }

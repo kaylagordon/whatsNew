@@ -19,9 +19,16 @@
 }
 
 .menu-button:hover {
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+}
+
+.clicked-button {
   background-color: #EC5449;
   color: white;
   font-weight: bold;
+  transform: scale(1.2);
 }
 
 .icon {
