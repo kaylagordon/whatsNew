@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   searchNews = (query) => {
-    const filteredNews = this.state.news.filter(article => article.description.includes(query));
+    const filteredNews = this.state.news.filter(article => article.description.toUpperCase().includes(query.toUpperCase()));
     this.setState({
       news: filteredNews
     })
