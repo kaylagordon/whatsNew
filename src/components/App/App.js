@@ -23,10 +23,19 @@ class App extends Component {
     });
   }
 
+  searchNews = (query) => {
+    const filteredNews = this.state.news.filter(article => article.description.includes(query));
+    this.setState({
+      news: filteredNews
+    })
+  }
+
   render () {
     return (
       <div className='app'>
-        <SearchForm />
+        <SearchForm
+          searchNews = {this.searchNews}
+        />
         <Menu
           local = {local}
           health = {health}
