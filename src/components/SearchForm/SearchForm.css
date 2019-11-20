@@ -29,6 +29,14 @@ input {
   padding: .7em;
   padding-left: 6px;
   width: 20%;
+  border: none;
+}
+
+input:hover,
+input:focus,
+.search-button:hover,
+.search-button:focus {
+  transform: scale(1.04);
 }
 
 .search-button {
