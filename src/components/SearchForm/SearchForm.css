@@ -29,6 +29,7 @@ input {
   padding: .7em;
   padding-left: 6px;
   width: 20%;
+  border: none;
 }
 
 .search-button {
