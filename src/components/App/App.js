@@ -3,7 +3,8 @@ import './App.css';
 import SearchForm from '../SearchForm/SearchForm'
 import Menu from '../Menu/Menu'
 import NewsContainer from '../NewsContainer/NewsContainer'
-import Footer from '../Footer/Footer'
+import Footer f
+rom '../Footer/Footer'
 
 let local;
 let entertainment;
