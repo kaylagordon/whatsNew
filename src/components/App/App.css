@@ -17,7 +17,8 @@
   width: 100%;
 }
 
-button:hover {
+button:hover,
+button:focus {
   cursor: pointer;
   transform: scale(1.2);
 }
