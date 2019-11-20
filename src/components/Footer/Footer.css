@@ -1,4 +1,4 @@
 .footer {
   grid-area: footer;
-  margin-bottom: 25px;
+  margin: 25px;
 }

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .app {
@@ -10,7 +11,7 @@
     'searchBar searchBar'
     'menu news'
     'footer footer';
-  background: #2F403E;
+  background: #333332;
   text-align: center;
   width: 100%;
   color: white;
