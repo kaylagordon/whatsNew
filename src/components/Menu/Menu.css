@@ -1,26 +1,25 @@
 .menu {
-  grid-area: menu;
+  background-color: #333332;
   display: flex;
   flex-direction: column;
-  width: 18.75em;
+  grid-area: menu;
+  height: 100%;
   margin-top: 5em;
   position: fixed;
-  background-color: #333332;
-  height: 100%;
+  width: 18.75em;
 }
 
 .menu-button {
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  color: #2F403E;
+  display: flex;
+  font-size: 1em;
   margin-top: 20px;
   padding: 10px;
   padding-left: 30px;
-  /* margin-left: 2em; */
-  font-size: 1em;
-  border-radius: 0 20px 20px 0;
-  background-color: white;
-  color: #2F403E;
-  border: none;
-  display: flex;
-  align-items: center;
 }
 
 .menu-button:hover {
@@ -37,6 +36,6 @@
 }
 
 .icon {
-  width: 25px;
   margin-right: 10px;
+  width: 25px;
 }
