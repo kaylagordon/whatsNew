@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Menu from './Menu';
 import { shallow } from 'enzyme';
 
-describe('App', () => {
+describe('Menu', () => {
   it('should correctly match the snapshot with all the data passed correctly', () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<Menu
+      changeNewsSource = {jest.fn()}
+    />);
     expect(wrapper).toMatchSnapshot();
   })
 });

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should correctly match the snapshot with all the data passed correctly 1`] = `
+<div
+  className="footer"
+>
+  Icons from 
+  <a
+    href="https://www.flaticon.com/"
+    title="Flaticon"
+  >
+    www.flaticon.com
+  </a>
+</div>
+`;
