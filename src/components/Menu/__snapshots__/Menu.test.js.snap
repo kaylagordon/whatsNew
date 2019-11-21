@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should correctly match the snapshot with all the data passed correctly 1`] = `
+<div
+  className="menu"
+>
+  <button
+    className="clicked-button menu-button"
+    onClick={[Function]}
+  >
+    <img
+      alt="local news icon"
+      className="icon"
+      src="placeholder.svg"
+    />
+    <p
+      className="button-label"
+    >
+      LOCAL NEWS
+    </p>
+  </button>
+  <button
+    className="clicked-button menu-button"
+    onClick={[Function]}
+  >
+    <img
+      alt="technology icon"
+      className="icon"
+      src="project-management.svg"
+    />
+    <p
+      className="button-label"
+    >
+      TECHNOLOGY
+    </p>
+  </button>
+  <button
+    className="clicked-button menu-button"
+    onClick={[Function]}
+  >
+    <img
+      alt="entertainment icon"
+      className="icon"
+      src="video-camera.svg"
+    />
+    <p
+      className="button-label"
+    >
+      ENTERTAINMENT
+    </p>
+  </button>
+  <button
+    className="clicked-button menu-button"
+    onClick={[Function]}
+  >
+    <img
+      alt="science icon"
+      className="icon"
+      src="flask.svg"
+    />
+    <p
+      className="button-label"
+    >
+      SCIENCE
+    </p>
+  </button>
+  <button
+    className="clicked-button menu-button"
+    onClick={[Function]}
+  >
+    <img
+      alt="health icon"
+      className="icon"
+      src="heart.svg"
+    />
+    <p
+      className="button-label"
+    >
+      HEALTH
+    </p>
+  </button>
+</div>
+`;
