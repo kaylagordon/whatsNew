@@ -10,4 +10,31 @@ describe('Menu', () => {
     />);
     expect(wrapper).toMatchSnapshot();
   })
+
+  it('should call changeNewsSource on button click', () => {
+    const mockChangeNewsSource = jest.fn();
+    const wrapper = shallow(<Menu
+      changeNewsSource = {mockChangeNewsSource}
+      local = 'local'
+      technology = 'tech'
+      entertainment = 'entertainment'
+      science = 'science'
+      health = 'health'
+    />)
+
+    wrapper.find('.local-button').simulate('click');
+    expect(mockChangeNewsSource).toHaveBeenCalledWith('local');
+
+    wrapper.find('.technology-button').simulate('click');
+    expect(mockChangeNewsSource).toHaveBeenCalledWith('tech');
+
+    wrapper.find('.entertainment-button').simulate('click');
+    expect(mockChangeNewsSource).toHaveBeenCalledWith('entertainment');
+
+    wrapper.find('.science-button').simulate('click');
+    expect(mockChangeNewsSource).toHaveBeenCalledWith('science');
+
+    wrapper.find('.health-button').simulate('click');
+    expect(mockChangeNewsSource).toHaveBeenCalledWith('health');
+  })
 });
