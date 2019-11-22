@@ -5,7 +5,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
   className="menu"
 >
   <button
-    className="clicked-button menu-button"
+    className="clicked-button menu-button local-button"
     onClick={[Function]}
   >
     <img
@@ -20,7 +20,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     </p>
   </button>
   <button
-    className="clicked-button menu-button"
+    className="clicked-button menu-button technology-button"
     onClick={[Function]}
   >
     <img
@@ -35,7 +35,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     </p>
   </button>
   <button
-    className="clicked-button menu-button"
+    className="clicked-button menu-button entertainment-button"
     onClick={[Function]}
   >
     <img
@@ -50,7 +50,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     </p>
   </button>
   <button
-    className="clicked-button menu-button"
+    className="clicked-button menu-button science-button"
     onClick={[Function]}
   >
     <img
@@ -65,7 +65,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     </p>
   </button>
   <button
-    className="clicked-button menu-button"
+    className="clicked-button menu-button health-button"
     onClick={[Function]}
   >
     <img
