@@ -5,8 +5,8 @@ header {
   display: flex;
   grid-area: searchBar;
   height: 5em;
-  justify-content: start;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 2em;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -15,7 +15,6 @@ header {
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 2.5em;
-  margin-left: 1em;
 }
 
 span {
@@ -23,9 +22,12 @@ span {
   font-family: 'Abril Fatface', cursive;
 }
 
+.search-section {
+  width: 40%;
+}
+
 input {
   font-size: 1em;
-  margin-left: 30%;
   padding: .7em;
   padding-left: 6px;
   width: 20%;
@@ -47,5 +49,31 @@ input:focus,
   font-weight: bold;
   margin-left: 1%;
   padding: .7em;
-  width: 10%;
+  width: 34%;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .search-section {
+    width: 55%;
+  }
+  input,
+  .search-button {
+    font-size: .8em;
+  }
+
+}
+
+@media only screen and (max-width: 745px) {
+  header {
+    flex-direction: column;
+    height: 7em;
+    padding: 1em;
+  }
+  .search-section {
+    width: 80%;
+  }
 }

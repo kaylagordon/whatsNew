@@ -6,3 +6,10 @@
   margin-top: 6em;
   padding: 0 2em 0 1em;
 }
+
+@media only screen and (max-width: 900px) {
+  .newsContainer {
+    column-count: 1;
+    margin-left: 0;
+  }
+}

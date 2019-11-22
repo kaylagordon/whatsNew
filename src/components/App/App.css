@@ -6,7 +6,7 @@
 }
 
 .app {
-  background: #333332;
+  background-color: #333332;
   color: white;
   display: grid;
   grid-template-areas:
@@ -22,4 +22,11 @@ button:focus {
   cursor: pointer;
   transform: scale(1.2);
   outline: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
 }
