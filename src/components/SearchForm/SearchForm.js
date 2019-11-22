@@ -13,10 +13,10 @@ export default class SearchForm extends Component {
     event.preventDefault();
     const { searchNews } = this.props;
     searchNews(this.state.searchQuery);
-    this.resetInputs();
+    this.resetSearchQuery();
   }
 
-  resetInputs = () => {
+  resetSearchQuery = () => {
     this.setState({
       searchQuery: ''
     })
