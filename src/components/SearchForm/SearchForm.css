@@ -30,8 +30,15 @@ input {
   font-size: 1em;
   padding: .7em;
   padding-left: 6px;
-  width: 65%;
+  width: 20%;
   border: none;
+}
+
+input:hover,
+input:focus,
+.search-button:hover,
+.search-button:focus {
+  transform: scale(1.04);
 }
 
 .search-button {

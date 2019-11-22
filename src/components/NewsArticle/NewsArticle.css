@@ -39,7 +39,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   font-weight: bold;
   transform: scale(1.2);
 }

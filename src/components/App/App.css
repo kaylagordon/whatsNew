@@ -17,9 +17,11 @@
   width: 100%;
 }
 
-button:hover {
+button:hover,
+button:focus {
   cursor: pointer;
   transform: scale(1.2);
+  outline: 0;
 }
 
 @media only screen and (max-width: 900px) {
