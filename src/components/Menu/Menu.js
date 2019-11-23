@@ -1,11 +1,12 @@
 import React from 'react';
-import './Menu.css'
-import placeholder from '../../images/placeholder.svg'
-import flask from '../../images/flask.svg'
-import heart from '../../images/heart.svg'
-import projectManagement from '../../images/project-management.svg'
-import camera from '../../images/video-camera.svg'
-let classNames = require('classnames')
+import './Menu.css';
+import placeholder from '../../images/placeholder.svg';
+import flask from '../../images/flask.svg';
+import heart from '../../images/heart.svg';
+import projectManagement from '../../images/project-management.svg';
+import camera from '../../images/video-camera.svg';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 function Menu(props) {
   let clickedLocal = classNames({
@@ -48,6 +49,16 @@ function Menu(props) {
       </button>
     </div>
   )
+}
+
+Menu.propTypes = {
+  local: PropTypes.array,
+  health: PropTypes.array,
+  science: PropTypes.array,
+  technology: PropTypes.array,
+  entertainment: PropTypes.array,
+  changeNewsSource: PropTypes.func,
+  state: PropTypes.string
 }
 
 export default Menu;
