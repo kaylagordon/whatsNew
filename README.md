@@ -13,8 +13,12 @@ Because you don't want to be pushing your updates to this boilerplate repository
 3. Once you've updated the remote, you should run `npm install`, commit, and then push your initial commit to your personal repository. You will need to use the `-u` flag when you push (like this: `git push -u origin master`).
 4. Run `npm start` to start up your React server. (You will see errors!)
 
-### Screenshots
-
+### Take a Look
+#### Preview
 ![video](https://media.giphy.com/media/UUnY1H3ICOPmAeMKoz/giphy.gif)
+
+#### Browser Screenshot
 ![screenshot_browser](https://i.imgur.com/gC8D67s.png)
+
+#### Mobile Screenshot
 ![screenshot_mobile](https://i.imgur.com/rGsCulQ.png)
