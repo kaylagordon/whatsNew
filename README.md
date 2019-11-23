@@ -1,17 +1,23 @@
 # What's New?
+## By Kayla Wood - Mod 3 Solo Project
 
-This application was built with `create-react-app`.
+### About the App
+This is a app shows users news by category. Users can switch categories and search for keywords in article descriptions. Users can click a button to be routed to be able to view the entire news article.
 
 ### Set Up
+1. Clone down this repo.
+2. `cd` into this directory.
+3. Run `npm install` in your terminal.
+4. Run `npm start` in your terminal.
+5. View the app in your browser at the url provided to you in your terminal.
 
-Clone down this repo.
-
-Because you don't want to be pushing your updates to this boilerplate repository, we're going to have to do a few things to get set up with your own repository.
-
-1. On GitHub, create a new, empty repository and name it something like 'whats-new'.
-2. Update the current remote (called "origin") so that it points at the URL of the repository you just created on GitHub. Read how to do this [here](https://help.github.com/en/articles/changing-a-remotes-url).
-3. Once you've updated the remote, you should run `npm install`, commit, and then push your initial commit to your personal repository. You will need to use the `-u` flag when you push (like this: `git push -u origin master`).
-4. Run `npm start` to start up your React server. (You will see errors!)
+### Technologies Used
+- React
+- Jest
+- Enzyme
+- JSX
+- Fetch API
+- Responsive design
 
 ### Take a Look
 #### Preview
