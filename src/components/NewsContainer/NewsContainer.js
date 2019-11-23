@@ -1,6 +1,7 @@
 import React from 'react';
-import './NewsContainer.css'
-import NewsArticle from '../NewsArticle/NewsArticle'
+import './NewsContainer.css';
+import NewsArticle from '../NewsArticle/NewsArticle';
+import PropTypes from 'prop-types';
 
 function NewsContainer({news}) {
   return (
@@ -16,6 +17,10 @@ function NewsContainer({news}) {
       })}
     </div>
   )
+}
+
+NewsContainer.propTypes = {
+  news: PropTypes.array
 }
 
 
